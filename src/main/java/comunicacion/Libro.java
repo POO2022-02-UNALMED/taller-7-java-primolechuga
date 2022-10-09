@@ -23,7 +23,7 @@ public class Libro extends Escrito{
     }
     @Override
     public int palabrasTotales(int palabrasPagina) {
-        return palabrasPagina*2;
+        return getPaginas()*palabrasPagina*2;
     }
     public String getCo_autor() {
         return co_autor;
